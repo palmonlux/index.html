@@ -1,32 +1,69 @@
-<section class="contact">
-  <h2>Encargos personalizados</h2>
-  <p>
-    ¿Quieres un pack único para tu canal o marca?  
-    En Palmonlux Studio creamos vídeos totalmente personalizados con IA.
-  </p>
-
-  <!-- FORMULARIO CON FORMSPREE -->
-  <form action="https://formspree.io/f/abcd1234" method="POST">
-    <label>Nombre</label>
-    <input type="text" name="nombre" required>
-
-    <label>Email</label>
-    <input type="email" name="email" required>
-
-    <label>Tipo de pack</label>
-    <input type="text" name="tipo" required>
-
-    <label>Mensaje</label>
-    <textarea name="mensaje" rows="4" required></textarea>
-
-    <button type="submit">Enviar solicitud</button>
-  </form>
-
-  <!-- BOTÓN DE CORREO DIRECTO (opcional, lo mantengo por si lo quieres usar) -->
-  <a href="mailto:palmonluxstudio@gmail.com?subject=Solicitud%20Palmonlux%20Studio&body=Hola,%20quiero%20hacer%20una%20solicitud%20sobre%20un%20pack." 
-     class="btn" 
-     style="background:#ff3b6b; display:inline-flex; align-items:center; gap:8px; margin-top:15px;">
-    📩 Enviar solicitud por correo
-  </a>
-</section>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Palmonlux Studio — Packs de Vídeos para TikTok y Shorts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #05060a;
+      --card: #111320;
+      --accent: #ff3b6b;
+      --text: #ffffff;
+      --muted: #b3b3c7;
+      --ia: #ffdd57;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #1b1f3b 0, #05060a 55%);
+      color: var(--text);
+    }
+    header, section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .paypal {
+      background: #0070ba;
+    }
+    .paypal img {
+      height: 18px;
+    }
+    .tagline {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+    h2 {
+      margin-top: 10px;
+      margin-bottom: 15px;
+      font
